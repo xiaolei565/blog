@@ -31,6 +31,7 @@
         <velovity.version>2.3</velovity.version>
         <!--mysql-->
         <mysql-java.version>8.0.28</mysql-java.version>
+        <lombok.version>1.18.22</lombok.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -62,7 +63,7 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-java.version}</version>
             </dependency>
-            <!--模板引擎-->
+            <!--模板引擎，用来代码生成的-->
             <dependency>
                 <groupId>org.apache.velocity</groupId>
                 <artifactId>velocity-engine-core</artifactId>
@@ -78,6 +79,7 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
 
         </dependencies>
