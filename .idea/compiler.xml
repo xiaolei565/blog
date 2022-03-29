@@ -2,12 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xlblog" />
+        <module name="blog-system" />
+        <module name="blog-common" />
+        <module name="Blog" />
+        <module name="blog-web" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog" options="-parameters" />
+      <module name="blog-common" options="-parameters" />
+      <module name="blog-system" options="-parameters" />
+      <module name="blog-web" options="-parameters" />
+    </option>
   </component>
 </project>
