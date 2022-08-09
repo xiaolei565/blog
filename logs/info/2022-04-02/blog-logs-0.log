@@ -1,0 +1,91 @@
+2022-04-02 19:54:59.246 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 61893 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-02 19:54:59.247 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-02 19:54:59.713 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-02 19:54:59.716 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-02 19:54:59.717 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-02 19:54:59.717 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-02 19:54:59.741 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-02 19:54:59.741 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 476 ms
+2022-04-02 19:55:00.149 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-02 19:55:00.157 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-02 19:55:00.231 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.159 seconds (JVM running for 1.496)
+2022-04-02 19:55:10.067 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 19:55:10.088 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-02 19:55:10.243 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-02 19:59:25.436 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-02 19:59:25.442 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-02 19:59:30.641 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 63786 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-02 19:59:30.642 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-02 19:59:31.285 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-02 19:59:31.290 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-02 19:59:31.290 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-02 19:59:31.291 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-02 19:59:31.332 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-02 19:59:31.332 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 666 ms
+2022-04-02 19:59:31.895 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-02 19:59:31.904 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-02 19:59:32.031 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.559 seconds (JVM running for 1.972)
+2022-04-02 19:59:36.989 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 19:59:37.018 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-02 19:59:37.180 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-02 20:00:02.254 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-02 20:00:02.262 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-02 20:00:03.771 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 64024 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-02 20:00:03.772 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-02 20:00:04.364 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-02 20:00:04.368 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:00:04.368 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-02 20:00:04.368 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-02 20:00:04.392 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-02 20:00:04.393 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms
+2022-04-02 20:00:04.826 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:00:04.835 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-02 20:00:04.947 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.418 seconds (JVM running for 1.642)
+2022-04-02 20:00:08.126 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 20:00:08.162 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-02 20:00:08.309 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-02 20:00:55.550 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-02 20:00:55.557 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-02 20:00:56.962 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 64413 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-02 20:00:56.964 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-02 20:00:57.549 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-02 20:00:57.552 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:00:57.552 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-02 20:00:57.552 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-02 20:00:57.577 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-02 20:00:57.577 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 593 ms
+2022-04-02 20:00:58.021 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:00:58.031 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-02 20:00:58.142 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.395 seconds (JVM running for 1.609)
+2022-04-02 20:01:03.659 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 64472 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-02 20:01:03.661 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-02 20:01:04.265 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-02 20:01:04.268 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:01:04.269 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-02 20:01:04.269 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-02 20:01:04.292 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-02 20:01:04.293 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 605 ms
+2022-04-02 20:01:04.793 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:01:04.802 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-02 20:01:04.911 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.542 seconds (JVM running for 1.872)
+2022-04-02 20:01:14.878 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 20:01:14.912 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-02 20:01:15.070 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-02 20:01:41.603 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-02 20:01:41.609 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-02 20:01:43.396 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 64758 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-02 20:01:43.397 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-02 20:01:43.890 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-02 20:01:43.893 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:01:43.893 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-02 20:01:43.893 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-02 20:01:43.919 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-02 20:01:43.919 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 500 ms
+2022-04-02 20:01:44.308 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-02 20:01:44.315 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-02 20:01:44.390 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.201 seconds (JVM running for 1.618)
+2022-04-02 20:01:48.473 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 20:01:48.496 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-02 20:01:48.639 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-02 22:00:45.746 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-02 22:00:45.751 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

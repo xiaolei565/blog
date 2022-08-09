@@ -1,0 +1,24 @@
+2022-04-02 19:55:10.246 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 19:55:10.258 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 2(Long)
+2022-04-02 19:55:10.272 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 0
+2022-04-02 19:59:37.183 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 19:59:37.202 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 2(Long)
+2022-04-02 19:59:37.215 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 0
+2022-04-02 20:00:08.313 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 20:00:08.325 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 2(Long)
+2022-04-02 20:00:08.339 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 0
+2022-04-02 20:00:41.067 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 20:00:41.067 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 2(Long)
+2022-04-02 20:00:41.071 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 0
+2022-04-02 20:01:15.073 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 20:01:15.085 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 2(Long)
+2022-04-02 20:01:15.097 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 0
+2022-04-02 20:01:48.642 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 20:01:48.654 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 2(Long)
+2022-04-02 20:01:48.665 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 0
+2022-04-02 20:06:54.657 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 20:06:54.659 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-02 20:06:54.675 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 1
+2022-04-02 20:21:18.432 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-02 20:21:18.434 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-02 20:21:18.448 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 1

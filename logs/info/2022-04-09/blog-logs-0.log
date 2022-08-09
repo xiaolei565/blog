@@ -1,0 +1,91 @@
+2022-04-09 14:18:08.413 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 59295 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-09 14:18:08.415 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-09 14:18:08.819 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 14:18:08.820 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 14:18:08.832 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-04-09 14:18:09.084 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-09 14:18:09.088 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-09 14:18:09.088 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 14:18:09.089 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 14:18:09.120 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 14:18:09.120 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 684 ms
+2022-04-09 14:18:09.785 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-09 14:18:09.886 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.694 seconds (JVM running for 2.118)
+2022-04-09 14:18:24.894 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 59425 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-09 14:18:24.895 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-09 14:18:25.275 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 14:18:25.277 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 14:18:25.289 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-04-09 14:18:25.524 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-09 14:18:25.528 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-09 14:18:25.528 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 14:18:25.528 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 14:18:25.555 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 14:18:25.555 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 641 ms
+2022-04-09 14:18:26.116 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bd26a4f5-3bbf-40d0-84fe-1ce1d5e6f3a6
+
+2022-04-09 14:18:26.176 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-09 14:18:26.216 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-09 14:18:26.235 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-09 14:18:26.342 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.643 seconds (JVM running for 1.856)
+2022-04-09 14:18:30.756 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-09 14:22:17.187 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 61030 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-09 14:22:17.189 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-09 14:22:17.550 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 14:22:17.551 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 14:22:17.560 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-04-09 14:22:17.790 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-09 14:22:17.796 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-09 14:22:17.796 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 14:22:17.796 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 14:22:17.826 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 14:22:17.826 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 615 ms
+2022-04-09 14:22:18.419 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9d21bcbe-f19d-477d-9556-6c2d8c14e02b
+
+2022-04-09 14:22:18.468 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-09 14:22:18.500 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-09 14:22:18.509 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-09 14:22:18.612 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.603 seconds (JVM running for 1.996)
+2022-04-09 14:24:20.802 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 61908 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-09 14:24:20.803 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-09 14:24:21.198 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 14:24:21.199 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 14:24:21.215 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-04-09 14:24:21.456 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-09 14:24:21.460 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-09 14:24:21.460 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 14:24:21.460 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 14:24:21.490 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 14:24:21.490 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 664 ms
+2022-04-09 14:24:22.041 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: df7ce59b-a576-48b4-9d30-44c05057ec5d
+
+2022-04-09 14:24:22.097 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-09 14:24:22.130 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-09 14:24:22.138 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-09 14:24:22.235 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.65 seconds (JVM running for 2.151)
+2022-04-09 14:24:45.332 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-09 15:52:23.985 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 98522 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-09 15:52:23.987 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-09 15:52:24.385 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 15:52:24.386 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 15:52:24.399 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-04-09 15:52:24.643 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-09 15:52:24.647 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-09 15:52:24.647 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 15:52:24.647 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 15:52:24.677 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 15:52:24.677 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 668 ms
+2022-04-09 15:52:25.262 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f2084c32-396a-4b82-9853-65e78e7826a7
+
+2022-04-09 15:52:25.312 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-09 15:52:25.343 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-09 15:52:25.352 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-09 15:52:25.443 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.734 seconds (JVM running for 2.031)

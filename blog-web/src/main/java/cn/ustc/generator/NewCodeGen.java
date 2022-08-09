@@ -1,5 +1,6 @@
 package cn.ustc.generator;
 
+import cn.ustc.blog.entity.BaseEntity;
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
@@ -69,7 +70,7 @@ public class NewCodeGen {
                 .enableSkipView() //跳过视图
                 .disableSqlFilter() //禁用sql过滤器
 //                .likeTable(new LikeTable("USER"))
-                .addInclude("user") //需要构造的表名
+                .addInclude("m_blog") //需要构造的表名
 //                .addTablePrefix("t_", "c_")
 //                .addFieldSuffix("_flag")
                 /*   .entityBuilder()
@@ -79,6 +80,8 @@ public class NewCodeGen {
                 .build();
         strategyConfig.entityBuilder()
                 .enableLombok()//开启lombok模式
+                .superClass(BaseEntity.class)//设置继承父类
+                .addSuperEntityColumns("id","created","updated","statu")//设置继承字段
                 .versionColumnName("version") //乐观锁字段
                 .naming(NamingStrategy.underline_to_camel)
                 .columnNaming(NamingStrategy.underline_to_camel)

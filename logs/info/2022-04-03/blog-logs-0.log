@@ -1,0 +1,146 @@
+2022-04-03 10:25:53.980 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 42491 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 10:25:53.981 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 10:25:54.508 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 10:25:54.512 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 10:25:54.512 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 10:25:54.512 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 10:25:54.537 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 10:25:54.537 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+2022-04-03 10:25:54.954 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 10:25:54.962 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 10:25:55.046 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.262 seconds (JVM running for 1.648)
+2022-04-03 10:26:04.117 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 10:26:04.150 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-03 10:26:04.372 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-03 15:34:05.975 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-03 15:34:05.984 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-03 19:25:50.078 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 71989 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:25:50.080 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:25:50.654 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:25:50.658 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:25:50.658 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:25:50.658 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:25:50.687 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:25:50.687 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 589 ms
+2022-04-03 19:25:51.090 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: dd779fd7-845d-412e-83d6-9957b937998f
+
+2022-04-03 19:25:51.137 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-03 19:25:51.166 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:25:51.174 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:25:51.262 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.387 seconds (JVM running for 1.623)
+2022-04-03 19:25:56.948 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 19:26:41.313 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 72360 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:26:41.314 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:26:41.835 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:26:41.838 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:26:41.839 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:26:41.839 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:26:41.864 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:26:41.864 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 533 ms
+2022-04-03 19:26:42.284 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e015fc9f-a605-4b66-894e-ba483cf6c58f
+
+2022-04-03 19:26:42.330 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-03 19:26:42.362 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:26:42.373 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:26:42.488 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.366 seconds (JVM running for 1.578)
+2022-04-03 19:26:46.060 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 19:27:50.412 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 72852 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:27:50.413 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:27:50.908 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:27:50.911 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:27:50.911 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:27:50.911 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:27:50.935 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:27:50.935 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 505 ms
+2022-04-03 19:27:51.353 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5a237254-3141-4e61-9f97-334905a797bc
+
+2022-04-03 19:27:51.394 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-03 19:27:51.421 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:27:51.429 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:27:51.523 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.281 seconds (JVM running for 1.471)
+2022-04-03 19:27:59.231 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 19:30:49.054 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 74110 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:30:49.055 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:30:49.652 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:30:49.656 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:30:49.657 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:30:49.657 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:30:49.683 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:30:49.684 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 606 ms
+2022-04-03 19:30:50.092 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9547cd1b-b4f9-4f28-9a7c-ec9e800a969d
+
+2022-04-03 19:30:50.136 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-03 19:30:50.164 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:30:50.172 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:30:50.264 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.406 seconds (JVM running for 1.611)
+2022-04-03 19:31:20.724 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 19:32:26.028 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 74809 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:32:26.029 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:32:26.522 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:32:26.527 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:32:26.527 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:32:26.527 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:32:26.553 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:32:26.554 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 508 ms
+2022-04-03 19:32:26.942 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 27fc2366-f029-4735-a0b0-efd34a6fcb10
+
+2022-04-03 19:32:26.985 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-03 19:32:27.018 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:32:27.028 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:32:27.120 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.261 seconds (JVM running for 1.458)
+2022-04-03 19:32:31.537 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 19:33:34.096 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 75294 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:33:34.098 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:33:34.640 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:33:34.643 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:33:34.643 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:33:34.643 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:33:34.670 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:33:34.670 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
+2022-04-03 19:33:35.082 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f06dfb37-919d-4cd2-bbcf-7cf8ca2cdeee
+
+2022-04-03 19:33:35.140 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-03 19:33:35.175 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:33:35.183 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:33:35.285 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.393 seconds (JVM running for 1.583)
+2022-04-03 19:33:50.919 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 19:36:35.863 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 76582 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:36:35.865 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:36:36.383 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:36:36.386 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:36:36.386 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:36:36.386 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:36:36.412 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:36:36.412 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 530 ms
+2022-04-03 19:36:36.810 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 87dfb76a-8e8c-40cf-9990-473020cd38bf
+
+2022-04-03 19:36:36.851 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-03 19:36:36.878 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:36:36.888 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:36:36.975 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.279 seconds (JVM running for 1.476)
+2022-04-03 19:39:11.151 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 77672 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-03 19:39:11.153 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-03 19:39:11.628 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-03 19:39:11.631 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:39:11.632 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-03 19:39:11.632 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-03 19:39:11.655 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-03 19:39:11.655 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 485 ms
+2022-04-03 19:39:12.039 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-03 19:39:12.047 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-03 19:39:12.133 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.148 seconds (JVM running for 1.511)
+2022-04-03 19:39:18.922 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'

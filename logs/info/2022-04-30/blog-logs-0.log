@@ -1,0 +1,60 @@
+2022-04-30 15:23:58.268 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 33164 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-30 15:23:58.270 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-30 15:23:58.900 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-30 15:23:58.914 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-30 15:23:58.931 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-04-30 15:23:59.281 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-30 15:23:59.285 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-30 15:23:59.286 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-30 15:23:59.286 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 15:23:59.316 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-30 15:23:59.316 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 989 ms
+2022-04-30 15:24:00.086 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-30 15:24:00.312 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-30 15:24:00.324 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-30 15:24:00.437 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 2.508 seconds (JVM running for 3.209)
+2022-04-30 15:24:09.317 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 15:24:09.490 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-30 15:24:09.850 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-30 15:25:16.296 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-30 15:25:16.309 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-30 15:25:22.571 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 33243 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-30 15:25:22.572 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-30 15:25:22.946 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-30 15:25:22.947 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-30 15:25:22.960 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-04-30 15:25:23.214 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-30 15:25:23.222 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-30 15:25:23.222 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-30 15:25:23.223 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 15:25:23.260 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-30 15:25:23.271 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 681 ms
+2022-04-30 15:25:24.008 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-30 15:25:24.220 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-30 15:25:24.229 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-30 15:25:24.324 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.939 seconds (JVM running for 3.157)
+2022-04-30 15:25:25.885 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 15:25:30.562 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-30 15:25:30.746 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-30 15:30:37.004 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-30 15:30:37.019 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-30 15:30:42.188 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 33600 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-30 15:30:42.190 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-30 15:30:42.577 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-30 15:30:42.578 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-30 15:30:42.591 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-04-30 15:30:42.847 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-30 15:30:42.851 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-30 15:30:42.851 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-30 15:30:42.851 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 15:30:42.888 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-30 15:30:42.889 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 679 ms
+2022-04-30 15:30:43.610 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-04-30 15:30:43.829 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-30 15:30:43.839 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-30 15:30:43.952 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.947 seconds (JVM running for 2.244)
+2022-04-30 15:30:58.748 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 15:31:04.072 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-30 15:31:04.239 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-30 19:36:40.227 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-30 19:36:40.230 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

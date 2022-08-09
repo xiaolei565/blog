@@ -21,4 +21,9 @@
         id, username, password, salt, email, type, status, activation_code, header_url, create_time
     </sql>
 
+
+    <select id="getRoleCodeByUserName" resultType="java.lang.String">
+
+    </select>
+
 </mapper>

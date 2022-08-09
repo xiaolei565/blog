@@ -1,0 +1,40 @@
+2022-05-25 18:42:31.635 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 1544 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-05-25 18:42:31.637 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-25 18:42:32.083 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-25 18:42:32.084 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-25 18:42:32.100 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-05-25 18:42:32.419 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-05-25 18:42:32.424 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-25 18:42:32.424 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-25 18:42:32.424 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-25 18:42:32.466 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-25 18:42:32.466 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 809 ms
+2022-05-25 18:42:33.230 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will not secure any request
+2022-05-25 18:42:33.470 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-25 18:42:33.482 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-25 18:42:33.589 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 2.143 seconds (JVM running for 2.568)
+2022-05-25 18:42:40.554 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-25 18:43:37.807 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-05-25 18:43:38.045 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-05-25 18:46:16.929 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /127.0.0.1:6379
+2022-05-25 18:46:26.022 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:46:34.321 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:46:50.723 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:47:20.821 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:47:50.920 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:48:21.019 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:48:51.119 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:49:21.218 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:49:51.316 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:50:21.415 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:50:51.512 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:51:21.613 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:51:51.712 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:52:21.834 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:52:51.944 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:53:22.041 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:53:52.145 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:54:22.244 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:54:52.339 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-05-25 18:54:56.257 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-05-25 18:54:56.261 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

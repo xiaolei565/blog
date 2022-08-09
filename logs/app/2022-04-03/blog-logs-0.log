@@ -1,0 +1,16 @@
+2022-04-03 10:26:04.377 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,password,salt,email,type,status,activation_code,header_url,create_time FROM user WHERE id=?
+2022-04-03 10:26:04.391 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-03 10:26:04.428 [DEBUG] cn.ustc.blog.mapper.UserMapper.selectById - <==      Total: 1
+2022-04-03 10:27:19.037 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( create_time ) VALUES ( ? )
+2022-04-03 10:27:19.044 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==> Parameters: null
+2022-04-03 10:27:19.064 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - <==    Updates: 1
+2022-04-03 10:32:08.710 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( create_time ) VALUES ( ? )
+2022-04-03 10:32:08.717 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==> Parameters: null
+2022-04-03 10:32:55.119 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( username, create_time ) VALUES ( ?, ? )
+2022-04-03 10:32:55.137 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==> Parameters: xuelei(String), null
+2022-04-03 10:32:55.147 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - <==    Updates: 1
+2022-04-03 10:34:35.458 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( create_time ) VALUES ( ? )
+2022-04-03 10:34:35.473 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==> Parameters: null
+2022-04-03 10:36:35.862 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( username, create_time ) VALUES ( ?, ? )
+2022-04-03 10:36:35.866 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - ==> Parameters: usernametest(String), null
+2022-04-03 10:36:35.886 [DEBUG] cn.ustc.blog.mapper.UserMapper.insert - <==    Updates: 1

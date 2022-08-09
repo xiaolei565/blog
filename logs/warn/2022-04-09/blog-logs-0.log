@@ -1,0 +1,10 @@
+2022-04-09 14:18:08.904 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-09 14:18:08.905 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-09 14:18:25.360 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-09 14:18:25.361 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-09 14:22:17.622 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-09 14:22:17.622 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-09 14:24:21.281 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-09 14:24:21.281 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-09 15:52:24.469 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-09 15:52:24.470 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.

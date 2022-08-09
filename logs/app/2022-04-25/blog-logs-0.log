@@ -1,0 +1,192 @@
+2022-04-25 20:54:54.743 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:54:54.746 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:54:54.775 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:54:54.777 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 20:54:54.778 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 20:54:54.781 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 20:54:54.788 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - ==>  Preparing: SELECT id,name,code,remark,created,updated,statu FROM sys_role WHERE (id IN (select role_id from sys_user_role where user_id = 1))
+2022-04-25 20:54:54.789 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - ==> Parameters: 
+2022-04-25 20:54:54.795 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - <==      Total: 2
+2022-04-25 20:54:54.796 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.getNavMenuIds - ==>  Preparing: SELECT DISTINCT rm.menu_id FROM sys_user_role ur LEFT JOIN sys_role_menu rm ON ur.role_id = rm.role_id WHERE ur.user_id = ?
+2022-04-25 20:54:54.797 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.getNavMenuIds - ==> Parameters: 1(Long)
+2022-04-25 20:54:54.801 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.getNavMenuIds - <==      Total: 18
+2022-04-25 20:54:54.803 [DEBUG] cn.ustc.blog.mapper.SysMenuMapper.selectBatchIds - ==>  Preparing: SELECT id,parent_id,name,path,perms,component,type,icon,order_num,created,updated,statu FROM sys_menu WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? )
+2022-04-25 20:54:54.804 [DEBUG] cn.ustc.blog.mapper.SysMenuMapper.selectBatchIds - ==> Parameters: 6(Long), 5(Long), 19(Long), 18(Long), 17(Long), 4(Long), 16(Long), 15(Long), 14(Long), 7(Long), 3(Long), 13(Long), 12(Long), 11(Long), 10(Long), 9(Long), 2(Long), 1(Long)
+2022-04-25 20:54:54.810 [DEBUG] cn.ustc.blog.mapper.SysMenuMapper.selectBatchIds - <==      Total: 18
+2022-04-25 20:54:54.820 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:54:54.821 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:54:54.826 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:55:08.307 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:55:08.308 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:55:08.315 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:55:08.317 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 20:55:08.317 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 20:55:08.321 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 20:55:08.479 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:55:08.480 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:55:08.483 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:55:08.483 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 20:55:08.483 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 20:55:08.485 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 20:55:08.492 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:55:08.492 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:55:08.514 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:55:41.508 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:55:41.509 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:55:41.514 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:55:41.515 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 20:55:41.516 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 20:55:41.519 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 20:55:41.535 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:55:41.535 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:55:41.539 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:56:25.267 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:56:25.271 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:56:25.279 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:56:25.286 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 20:56:25.287 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 20:56:25.292 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 20:56:25.315 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:56:25.316 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:56:25.321 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:56:31.799 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:56:31.800 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:56:31.804 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 20:56:31.805 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 20:56:31.805 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 20:56:31.808 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 20:56:31.820 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 20:56:31.821 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 20:56:31.824 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 21:00:09.578 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 21:00:09.580 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 21:00:09.592 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 21:00:09.594 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 21:00:09.595 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 21:00:09.601 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 21:00:09.728 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 21:00:09.728 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 21:00:09.732 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 21:00:09.732 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 21:00:09.733 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 21:00:09.735 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 21:00:09.743 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 21:00:09.743 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 21:00:09.746 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:22:24.425 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:22:24.439 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:22:24.454 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:22:24.458 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:22:24.458 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:22:24.463 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:22:24.471 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - ==>  Preparing: SELECT id,name,code,remark,created,updated,statu FROM sys_role WHERE (id IN (select role_id from sys_user_role where user_id = 1))
+2022-04-25 23:22:24.471 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - ==> Parameters: 
+2022-04-25 23:22:24.483 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - <==      Total: 2
+2022-04-25 23:22:24.611 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:22:24.611 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:22:24.615 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:23:04.782 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:23:04.889 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:23:05.164 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:23:21.099 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:23:21.100 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:23:21.105 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:23:51.913 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:23:51.926 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:23:51.941 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:25:06.002 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:25:06.004 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:25:06.012 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:25:25.852 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:25:25.864 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:25:25.886 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:25:25.891 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:25:25.892 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:25:25.896 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:25:26.016 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:25:26.016 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:25:26.018 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:25:26.018 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:25:26.019 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:25:26.021 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:25:26.025 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:25:26.026 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:25:26.028 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:25:26.039 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:25:26.039 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:25:26.042 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:33:54.799 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:33:54.815 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:33:54.833 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:33:54.837 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:33:54.838 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:33:54.842 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:33:54.961 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:33:54.961 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:33:54.966 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:33:54.967 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:33:54.967 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:33:54.970 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:33:54.976 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:33:54.976 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:33:54.978 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:33:54.991 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:33:54.991 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:33:54.993 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:34:30.914 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:34:30.925 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:34:30.939 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:34:30.942 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:34:30.943 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:34:30.946 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:34:31.064 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:34:31.064 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:34:31.069 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:34:31.069 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:34:31.070 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:34:31.072 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:34:31.081 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:34:31.081 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:34:31.083 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:34:31.094 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:34:31.095 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:34:31.097 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:35:21.698 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:35:21.709 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:35:21.721 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:35:21.725 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:35:21.725 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:35:21.729 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:35:21.848 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:35:21.849 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:35:21.852 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:35:21.853 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:35:21.853 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:35:21.856 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:35:21.862 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:35:21.863 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:35:21.864 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:35:21.875 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:35:21.876 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:35:21.878 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:36:51.433 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:36:51.445 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:36:51.460 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:36:51.465 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:36:51.465 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:36:51.469 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:36:51.478 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - ==>  Preparing: SELECT id,name,code,remark,created,updated,statu FROM sys_role WHERE (id IN (select role_id from sys_user_role where user_id = 1))
+2022-04-25 23:36:51.478 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - ==> Parameters: 
+2022-04-25 23:36:51.483 [DEBUG] cn.ustc.blog.mapper.SysRoleMapper.selectList - <==      Total: 2
+2022-04-25 23:36:51.597 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:36:51.597 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:36:51.601 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1
+2022-04-25 23:36:51.602 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:36:51.602 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:36:51.604 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:36:51.611 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE id=?
+2022-04-25 23:36:51.612 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - ==> Parameters: 1(Long)
+2022-04-25 23:36:51.614 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectById - <==      Total: 1
+2022-04-25 23:36:51.626 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,avatar,email,city,last_login,created,updated,statu FROM sys_user WHERE (username = ?)
+2022-04-25 23:36:51.626 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - ==> Parameters: admin(String)
+2022-04-25 23:36:51.628 [DEBUG] cn.ustc.blog.mapper.SysUserMapper.selectList - <==      Total: 1

@@ -1,0 +1,8 @@
+2022-04-06 19:39:24.570 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-06 19:39:24.571 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-06 20:06:13.337 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-06 20:06:13.339 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-06 20:06:40.408 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-06 20:06:40.408 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-06 20:12:56.299 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-06 20:12:56.299 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.

@@ -31,8 +31,9 @@ public class User implements Serializable {
 
     private String username;
 
-    private String password;
+    private String userpwd;
 
+//    用以后面和uuid加密密码
     private String salt;
 
     private String email;

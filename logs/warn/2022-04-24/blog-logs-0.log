@@ -1,0 +1,23 @@
+2022-04-24 14:21:23.735 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'MBlogMapper' and 'cn.ustc.blog.mapper.MBlogMapper' mapperInterface. Bean already defined with the same name!
+2022-04-24 14:21:23.735 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysMenuMapper' and 'cn.ustc.blog.mapper.SysMenuMapper' mapperInterface. Bean already defined with the same name!
+2022-04-24 14:21:23.735 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysRoleMapper' and 'cn.ustc.blog.mapper.SysRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-04-24 14:21:23.736 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysRoleMenuMapper' and 'cn.ustc.blog.mapper.SysRoleMenuMapper' mapperInterface. Bean already defined with the same name!
+2022-04-24 14:21:23.736 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserMapper' and 'cn.ustc.blog.mapper.SysUserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-24 14:21:23.736 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserRoleMapper' and 'cn.ustc.blog.mapper.SysUserRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-04-24 14:21:23.736 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-04-24 14:21:23.736 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-04-24 15:41:54.762 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s853ms), soft-evicting connections from pool.
+2022-04-24 17:27:20.337 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s929ms).
+2022-04-24 18:21:36.213 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m15s873ms).
+2022-04-24 18:44:25.023 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m48s814ms).
+2022-04-24 18:47:08.339 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s307ms).
+2022-04-24 19:14:31.040 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m22s594ms).
+2022-04-24 20:01:44.913 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m13s873ms).
+2022-04-24 21:43:54.562 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m9s649ms).
+2022-04-24 22:02:38.258 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m43s695ms).
+2022-04-24 23:07:05.357 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m56s782ms).
+2022-04-24 23:19:25.040 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m37s501ms).
+2022-04-24 23:45:31.787 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-04-24 23:45:40.874 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-04-24 23:45:49.175 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-04-24 23:46:05.573 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379

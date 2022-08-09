@@ -1,0 +1,2 @@
+2022-04-30 15:35:47.401 [http-nio-8081-exec-7] ERROR cn.ustc.handler.GlobalExceptionHandler - Required request header 'Authorization' for method parameter type String is not present
+2022-04-30 15:36:01.419 [http-nio-8081-exec-8] ERROR cn.ustc.handler.GlobalExceptionHandler - Required request header 'Authorization' for method parameter type String is not present

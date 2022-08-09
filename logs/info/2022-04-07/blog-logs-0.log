@@ -1,0 +1,273 @@
+2022-04-07 09:09:59.998 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 42702 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-07 09:10:00.000 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-07 09:10:00.416 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-07 09:10:00.417 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-07 09:10:00.430 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-04-07 09:10:00.718 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-07 09:10:00.722 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-07 09:10:00.722 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-07 09:10:00.722 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-07 09:10:00.753 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-07 09:10:00.753 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 734 ms
+2022-04-07 09:10:01.387 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-07 09:10:01.398 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-07 09:10:01.505 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 1.706 seconds (JVM running for 2.134)
+2022-04-07 09:10:04.087 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 09:12:55.354 [INFO ] cn.ustc.BlogApplication - Starting BlogApplication using Java 1.8.0_282 on Glor.local with PID 43916 (/Users/leixue/Documents/CODE/blog/blog-web/target/classes started by leixue in /Users/leixue/Documents/CODE/blog)
+2022-04-07 09:12:55.357 [INFO ] cn.ustc.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+2022-04-07 09:12:55.922 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-07 09:12:55.923 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-07 09:12:55.932 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-04-07 09:12:56.165 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-04-07 09:12:56.170 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-07 09:12:56.171 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-07 09:12:56.171 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-07 09:12:56.210 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-07 09:12:56.211 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 813 ms
+2022-04-07 09:12:56.764 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-07 09:12:56.774 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-07 09:12:56.870 [INFO ] cn.ustc.BlogApplication - Started BlogApplication in 2.069 seconds (JVM running for 2.767)
+2022-04-07 09:13:04.764 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 11:31:51.575 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /127.0.0.1:6379
+2022-04-07 11:32:00.670 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:32:08.971 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:32:25.370 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:32:55.470 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:33:25.570 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:33:55.670 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:34:25.768 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:34:55.868 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:35:25.965 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:35:56.065 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:36:26.161 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:36:56.261 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:37:26.364 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:37:56.461 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:38:26.560 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:38:56.658 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:39:26.757 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:39:56.858 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:40:26.957 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:40:57.056 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:49:41.672 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 11:50:11.772 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:06:21.046 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:06:51.138 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:07:21.340 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:07:51.438 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:08:21.539 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:08:51.642 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:09:21.738 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:09:51.841 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:10:21.942 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:10:52.042 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:11:22.139 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:11:52.242 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:12:22.340 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:12:52.442 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:13:22.544 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:13:52.644 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:14:22.739 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:14:52.841 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:15:22.942 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:15:53.044 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:16:23.143 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:16:53.244 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:17:23.344 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:17:53.446 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:18:23.546 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:18:53.647 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:19:23.741 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:19:53.843 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:20:23.947 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:20:54.047 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:21:24.152 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:21:54.246 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:22:24.408 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:22:54.507 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:23:24.611 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:23:54.705 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:24:24.804 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:24:54.904 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:25:25.009 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:25:55.106 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:26:25.210 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:26:55.310 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:27:25.412 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:27:55.514 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:28:25.616 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:28:55.715 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:29:25.814 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:29:55.914 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:30:26.014 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:30:56.116 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:31:26.215 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:31:56.318 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:32:26.418 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:32:56.521 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:33:26.621 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:33:56.722 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:34:26.821 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:34:56.926 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:35:27.022 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:35:57.126 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:36:27.226 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:36:57.327 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:37:27.404 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:37:57.484 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:38:27.581 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:38:57.683 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:39:27.783 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:39:57.883 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:40:27.980 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:40:58.081 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:41:28.181 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:41:58.282 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:42:28.384 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:42:58.484 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:43:28.582 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:43:58.686 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:44:28.784 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:44:58.885 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:45:28.987 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:45:59.083 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:46:29.184 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:46:59.284 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:47:29.735 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 12:47:59.837 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:05:26.572 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:05:56.674 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:06:26.777 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:06:56.873 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:07:26.971 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:07:57.072 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:08:27.165 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:25:11.960 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:25:42.064 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:26:37.100 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:27:07.200 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 13:53:57.461 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:12:27.748 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:50:44.575 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:51:14.676 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:51:44.775 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:52:14.871 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:52:44.974 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:53:15.073 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:53:45.171 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:54:15.271 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:54:45.371 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:55:15.472 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:55:45.591 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:56:15.670 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:56:45.770 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:57:15.869 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:57:45.967 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:58:16.064 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:58:46.168 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:59:16.262 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 14:59:46.365 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:00:16.465 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:00:46.561 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:01:16.661 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:01:46.761 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:02:16.859 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:02:46.962 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:03:17.062 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:03:47.161 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:04:17.259 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:04:47.359 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:05:17.459 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:05:47.556 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:06:17.671 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:06:47.775 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:07:17.875 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:07:47.974 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:08:18.073 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:08:48.173 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:09:18.273 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:09:48.372 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:10:18.471 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:10:48.571 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:11:18.666 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:11:48.769 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:12:18.870 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:12:48.967 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:13:19.069 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:13:49.166 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:14:19.268 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:14:49.364 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:15:19.465 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:15:49.565 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:16:19.661 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:16:49.765 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:17:19.863 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:17:49.963 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:18:20.059 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:18:50.164 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:19:20.264 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:19:50.362 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:20:20.458 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:20:50.487 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:21:20.588 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:21:50.687 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:22:20.787 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:22:50.885 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:23:20.986 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:23:51.084 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:24:21.179 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:24:51.282 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:25:21.381 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:25:51.481 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:26:21.580 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:26:51.679 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:27:21.778 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:27:51.878 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:28:21.973 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:28:52.077 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:29:22.174 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:29:52.274 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:30:22.370 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:30:52.469 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:31:22.572 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:31:52.671 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:32:22.769 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:32:52.865 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:33:22.967 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:33:53.068 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:34:23.165 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:34:53.265 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:35:23.363 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:35:53.461 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:36:23.549 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:36:53.644 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:37:23.743 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:37:53.843 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:38:23.941 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:38:54.038 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:39:24.139 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:39:54.239 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:40:24.338 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:40:54.435 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:41:24.534 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:41:54.635 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:42:24.731 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:42:54.831 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:43:24.927 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:43:55.032 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:44:25.131 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:44:55.227 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:45:25.328 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:45:55.428 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:46:25.527 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:46:55.622 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:47:25.725 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:47:55.823 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:48:25.923 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:48:56.022 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:49:26.119 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:49:56.220 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:50:26.317 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:50:56.419 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:51:26.515 [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2022-04-07 15:51:26.560 [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 127.0.0.1:6379

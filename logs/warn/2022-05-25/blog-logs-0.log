@@ -1,0 +1,28 @@
+2022-05-25 18:42:32.167 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'MBlogMapper' and 'cn.ustc.blog.mapper.MBlogMapper' mapperInterface. Bean already defined with the same name!
+2022-05-25 18:42:32.167 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysMenuMapper' and 'cn.ustc.blog.mapper.SysMenuMapper' mapperInterface. Bean already defined with the same name!
+2022-05-25 18:42:32.167 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysRoleMapper' and 'cn.ustc.blog.mapper.SysRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-05-25 18:42:32.168 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysRoleMenuMapper' and 'cn.ustc.blog.mapper.SysRoleMenuMapper' mapperInterface. Bean already defined with the same name!
+2022-05-25 18:42:32.168 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserMapper' and 'cn.ustc.blog.mapper.SysUserMapper' mapperInterface. Bean already defined with the same name!
+2022-05-25 18:42:32.168 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserRoleMapper' and 'cn.ustc.blog.mapper.SysUserRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-05-25 18:42:32.168 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'cn.ustc.blog.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-05-25 18:42:32.168 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.ustc.blog.mapper]' package. Please check your configuration.
+2022-05-25 18:46:16.940 [lettuce-eventExecutorLoop-1-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:46:26.026 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:46:34.324 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:46:50.727 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:47:20.824 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:47:50.925 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:48:21.024 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:48:51.124 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:49:21.223 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:49:51.321 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:50:21.420 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:50:51.517 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:51:21.619 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:51:51.717 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:52:21.839 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:52:51.950 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:53:22.045 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:53:52.149 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:54:22.253 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+2022-05-25 18:54:52.343 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
